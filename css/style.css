@@ -1,0 +1,29 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(content.css);
+
+:root {
+    --primary-color: #ffffff;
+    --second-color: #727D71;
+    --text-color: #1A200B;
+    --accent-color: #E0EADF;
+    --font-use: 'Inter';
+    --font-use-heavy: 'Inter-heavy';
+    --second-font: 'Gabriela-Regular'
+}
+
+@font-face {
+    font-family: "Gabriela-Regular";
+    src: url(../ressources/font/Gabriela-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../ressources/font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-heavy";
+    src: url(../ressources/font/Inter-SemiBold.ttf);
+}

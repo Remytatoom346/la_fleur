@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^accueil$ index.php?page=home [L]
+RewriteRule ^amour$ index.php?page=amour [L]
+RewriteRule ^anniversaire$ index.php?page=anniversaire [L]
+RewriteRule ^mariage$ index.php?page=mariage [L]
+RewriteRule ^naissances$ index.php?page=naissances [L]
+RewriteRule ^remerciement$ index.php?page=remerciement [L]

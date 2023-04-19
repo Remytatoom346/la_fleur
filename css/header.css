@@ -1,0 +1,76 @@
+.container_header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_link_header {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--second-color);
+    font-family: var(--font-use);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.nav_link_header:is(:hover, :focus) {
+    background-color: var(--accent-color);
+}
+
+
+.side_ico {
+    position: absolute;
+    right: 30px;
+}
+
+.side_ico img {
+    margin: 0 5px;
+}
+
+.logo {
+    margin: 0px 20px;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    height: 5vh;
+}
+
+.container_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+
+.nav_link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-color);
+    font-family: var(--font-use);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.container_nav li:is(:hover, :focus) {
+    background-color: var(--accent-color);
+}
